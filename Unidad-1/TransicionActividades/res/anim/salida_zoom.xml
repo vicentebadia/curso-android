@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:duration="500"
+    
+    android:pivotX="50%p"
+    android:pivotY="50%p"
+    
+    android:fromXScale="1.0" 
+    android:toXScale="0.0"
+    android:fromYScale="1.0" 
+    android:toYScale="0.0" >
+
+</scale>
+
+<!-- Duración de 0.5 segundos, efecto de zoom en el centro de la pantalla (pivot en X e Y al 50%, y 
+escalando desde tamaño máximo (1.0), hasta desaparecer (0.0) -->

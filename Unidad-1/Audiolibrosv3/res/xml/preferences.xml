@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <CheckBoxPreference
+        android:key="pref_autoreproducir"
+        android:title="Reproducir automáticamente"
+        android:summary="El audio se inicia automáticamente al abrirlo"
+        android:defaultValue="true" />
+    
+</PreferenceScreen>
+

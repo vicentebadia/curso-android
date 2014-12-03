@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+     android:ordering="sequentially">
+
+    <objectAnimator
+        android:duration="2000"
+        android:propertyName="textSize"
+        android:valueFrom="0"
+        android:valueTo="50"
+        android:valueType="floatType" />
+    
+    <set> 
+    
+ 	  	 <objectAnimator
+    	  	  android:propertyName="pivotY"
+      		  android:valueTo="0"/>
+ 	  	 
+ 	  	  <objectAnimator
+      	  android:propertyName="pivotX"
+      	  android:valueTo="50dp"/>
+    	 
+    	 <objectAnimator
+ 	     	  android:propertyName="rotationX"
+   		      android:duration="1000"
+              android:valueFrom="0dp"
+              android:valueTo="-20dp"/>
+    </set>
+
+    <set> 	
+    	
+    	 <objectAnimator
+      	  android:propertyName="pivotY"
+      	  android:valueTo="0"/>
+    	 
+    	  <objectAnimator
+      	  android:propertyName="pivotX"
+      	  android:valueTo="50dp"/>
+
+         <objectAnimator
+ 	     	 android:propertyName="rotationX"
+   		     android:duration="2000"
+   		     android:repeatCount="infinite"
+             android:repeatMode="reverse"
+             android:valueFrom="-20dp"
+             android:valueTo="20dp"/>
+    </set>
+    
+ 
+
+</set>
+
+<!-- La primera animación aumenta el tamaño de la fuente de 0 a 50 en 2 segundos
+
+	 El segundo set de animaciones hace que el texto rote sobre X pivotando sobre Y una vez hacia "atrás"
+	 Hacemos también que pivote sobre aproximadamente la mitad de X para que el efecto de alejamiento y acercamiento
+	 se aprecie en ambos extremos del "cartel"
+	 
+	 El tercer set de animaciones realiza lo mismo que el segundo, pero yendo hacia alante y atrás en un bucle infinito
+
+	  -->
+
+
+

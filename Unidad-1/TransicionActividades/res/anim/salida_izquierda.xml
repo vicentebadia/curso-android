@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="800"
+    android:fromXDelta="-100%"
+    android:toXDelta="0" />
+
+
+<!-- La nueva actividad queremos que entre de izquierda a derecha. Por lo tanto, hemos programado una animación de translación, 
+con una duración de 800 ms, partiendo de una coordenada en x de -100% hasta una coordenada de 0. Recuerda que el origen de
+coordenadas x está en la izquierda de la pantalla. Por lo tanto, la coordenada 100% representa situar la actividad justo a 
+la izquierda de la pantalla y 0 ocupando toda la pantalla. -->

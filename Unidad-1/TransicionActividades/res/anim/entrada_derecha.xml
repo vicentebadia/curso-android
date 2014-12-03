@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="800"
+    android:fromXDelta="0"
+    android:toXDelta="100%" />
+
+<!-- La actividad que abandonamos queremos que salga por la derecha. Por lo tanto, hemos programado una animación de translación,
+con una duración de 800 ms, partiendo de una coordenada en x de 0 hasta una coordenada de 100%. Como las dos animaciones las arrancaremos
+a la vez, se consigue el efecto de que la nueva actividad desplace a la otra. -->
