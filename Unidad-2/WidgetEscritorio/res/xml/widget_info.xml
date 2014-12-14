@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/widget"
+    android:minHeight="110dp"
+    android:minResizeHeight="40dp"
+    android:minResizeWidth="40dp"
+    android:minWidth="110dp"
+    android:previewImage="@drawable/preview"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="1800000"
+    android:widgetCategory="home_screen"
+    android:configure="com.example.widgetescritorio.ConfiguraWidget" >
+
+</appwidget-provider>
+
+<!-- Las dimensiones iniciales serán de 2x2 celdas. Hemos usado la ecuación 70•número celdas - 30. 
+Las dimensiones mínimas serán de 1x1. Haremos una actualización cada 30 minutos (30 min = 30•60•1.000 ms).  -->
