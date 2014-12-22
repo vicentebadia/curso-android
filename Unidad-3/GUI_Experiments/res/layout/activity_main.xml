@@ -3,19 +3,41 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
+
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="redOnClick"
         android:text="red" />
+
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="greenOnClick"
         android:text="green" />
+
     <Button
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:onClick="blueOnClick"
         android:text="blue" />
+
+    <EditText
+        android:id="@+id/inputField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="3093215881333057" />
+
+    <Button
+        android:id="@+id/primecheckbutton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="triggerPrimecheck"
+        android:text="Is it prime?" />
+
+    <EditText
+        android:id="@+id/resultField"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
 </LinearLayout>
